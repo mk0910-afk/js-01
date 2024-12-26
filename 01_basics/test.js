@@ -1,9 +1,9 @@
 console.log("hello")
 
-let name = "manas"
-let age = 18 
-let subject
-let college = null
+// let name = "manas"
+// let age = 18 
+// let subject
+// let college = null
 
 
 //console.table([name , age , subject ,college]);
@@ -11,6 +11,8 @@ let college = null
 // avoid using var , instead use let , 
 
 /*
+
+primitive
 variable
 number 2^253
 bigint
@@ -20,8 +22,8 @@ null => standalone value
 undefined
 symbol =>unique
 
-
-object
+non primitive
+Arrays , object 
 */
 
 console.log(typeof null) //object
@@ -43,3 +45,5 @@ console.log(2 + 2 +"2"); //42
 console.log("1" + 2); //12
 console.log(+true); //+"" => false/0
 
+
+// Stack(primitive , copy) , Heap(Non primitive, reference)
