@@ -1,0 +1,49 @@
+
+const user = {
+
+    Username : "manas" , 
+    price : 99,
+
+    welcomemsg : function(){
+        console.log(`${this.Username} , welocome to website`);
+        console.log(this);
+        
+    }
+}
+
+//user.welcomemsg()
+//user.Username = "sam"
+//user.welcomemsg()
+
+//console.log(this);
+
+// function chai(){
+//     let Username = "manas"
+//     console.log(this);
+    
+//     console.log(this.Username); // print undefined , cant use this in funct like this
+// }
+
+//chai()
+
+// const chai = function(){
+
+//     let Username = "manas"
+//     console.log(this.Username);
+    
+// }
+// chai()
+
+// const chai = () =>{
+//     let Username = "manas"
+//     console.log(this);
+    
+// }
+
+// chai()
+
+const addTwo = (num1 , num2) => (num1+num2) //implicite return
+ // better to use () otherwise problem in returning object
+console.log(addTwo(2 , 3)); 
+ 
+
