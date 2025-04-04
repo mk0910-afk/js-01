@@ -21,7 +21,7 @@ const user = {
 //     let Username = "manas"
 //     console.log(this);
     
-//     console.log(this.Username); // print undefined , cant use this in funct like this
+//     console.log(this.Username); // print undefined , cant use "this" in funct like this
 // }
 
 //chai()
