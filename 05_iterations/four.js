@@ -10,3 +10,4 @@ coding.forEach( function (item){  //call back function have no name
 coding.forEach( (item)=>{
     console.log(item);   
 } )
+// for each does not return any value , so we use filter 
